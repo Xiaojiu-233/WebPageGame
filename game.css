@@ -1,0 +1,14 @@
+.active-unit {
+    float :left;
+    height: 110px;
+    position: fixed;
+    top: 400px;
+    left: 550px;
+
+    vertical-align: bottom;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+}
