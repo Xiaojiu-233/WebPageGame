@@ -4,6 +4,7 @@ var speed = 8;
 
 //系统事件触发函数
 document.onkeydown = WhenKeyDown;
+document.onmousemove = WhenMouseMove;
 
 //函数内容
 function GetUnit(unit){
@@ -46,4 +47,9 @@ function WhenKeyDown(even){
          num = 750;
     Unit.style.top = num + 'px';
         
+}
+
+function WhenMouseMove(e){
+     Unit.style.left = e.clientX + 'px';
+     Unit.style.top = e.clientY + 'px';
 }
