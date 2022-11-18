@@ -50,6 +50,7 @@ function WhenKeyDown(even){
 }
 
 function WhenMouseMove(e){
+    console.log(e);
      Unit.style.left = e.clientX + 'px';
      Unit.style.top = e.clientY + 'px';
 }
